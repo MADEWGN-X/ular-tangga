@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 2px;
+    margin: 20px auto;
+    width: 500px;
+    height: 500px;
+    background: #ddd;
+}
+
+.cell {
+    background: white;
+    border: 1px solid #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.player-token {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.player1 .player-token {
+    background: red;
+    color: white;
+}
+
+.player2 .player-token {
+    background: blue;
+    color: white;
+}
+
+#multiplayer-controls {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#dice {
+    margin: 20px 0;
+}
+
+#dice-value {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.game-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+#player-status {
+    display: flex;
+    gap: 20px;
+}
+
+.player {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.active-player {
+    background: #e0e0e0;
+} 

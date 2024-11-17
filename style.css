@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    margin-top: 20px;
+  }
+  
+  .game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  canvas {
+    border: 2px solid #000;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 10px;
+  }
+  
+  .dice {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s;
+    margin: 20px auto;
+  }
+  
+  .dice-face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    background: white;
+    border: 2px solid #000;
+    box-sizing: border-box;
+  }
+  
+  .front  { transform: rotateY(0deg) translateZ(30px); }
+  .back   { transform: rotateY(180deg) translateZ(30px); }
+  .top    { transform: rotateX(90deg) translateZ(30px); }
+  .bottom { transform: rotateX(-90deg) translateZ(30px); }
+  .right  { transform: rotateY(90deg) translateZ(30px); }
+  .left   { transform: rotateY(-90deg) translateZ(30px); }
+  
+  .dice.rolling {
+    animation: rolling 4s;
+  }
+  
+  @keyframes rolling {
+    0% { transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg); }
+    100% { transform: rotateX(720deg) rotateY(720deg) rotateZ(720deg); }
+  }
+  

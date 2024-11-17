@@ -1,0 +1,67 @@
+{
+    "komposisi_dan_invers_fungsi": [
+      {
+        "soal": "Jika f(x) = 2x + 3 dan g(x) = x - 1, maka (f ∘ g)(4) adalah?",
+        "jawaban": "9"
+      },
+      {
+        "soal": "Jika f(x) = x^2 dan g(x) = x + 2, maka (g ∘ f)(2) adalah?",
+        "jawaban": "6"
+      },
+      {
+        "soal": "Jika f(x) = 2x + 1, maka f^(-1)(x) adalah?",
+        "jawaban": "(x - 1) / 2"
+      },
+      {
+        "soal": "Jika g(x) = x + 5, maka g^(-1)(10) adalah?",
+        "jawaban": "5"
+      },
+      {
+        "soal": "Jika f(x) = 3x, maka f^(-1)(6) adalah?",
+        "jawaban": "2"
+      },
+      {
+        "soal": "Jika g(x) = x - 2, maka g(8) adalah?",
+        "jawaban": "6"
+      },
+      {
+        "soal": "Jika f(x) = x + 3, maka f^(-1)(x) adalah?",
+        "jawaban": "x - 3"
+      },
+      {
+        "soal": "Jika f(x) = 2x, maka f(5) adalah?",
+        "jawaban": "10"
+      }
+    ],
+    "lingkaran": [
+      {
+        "soal": "Sebuah lingkaran memiliki jari-jari r = 7. Berapa diameternya?",
+        "jawaban": "14"
+      },
+      {
+        "soal": "Jika diameter d = 10, berapa jari-jari lingkaran tersebut?",
+        "jawaban": "5"
+      },
+      {
+        "soal": "Sebuah lingkaran memiliki jari-jari r = 14. Berapa keliling lingkarannya (gunakan π = 22/7)?",
+        "jawaban": "88"
+      },
+      {
+        "soal": "Jika r = 7, berapa luas lingkarannya (gunakan π = 22/7)?",
+        "jawaban": "154"
+      },
+      {
+        "soal": "Jika diameter d = 12, berapa luas lingkarannya (gunakan π = 3,14)?",
+        "jawaban": "113.04"
+      },
+      {
+        "soal": "Jika r = 5, berapa keliling lingkarannya (gunakan π = 3,14)?",
+        "jawaban": "31.4"
+      },
+      {
+        "soal": "Sebuah lingkaran memiliki diameter 8. Berapa jari-jarinya?",
+        "jawaban": "4"
+      }
+    ]
+  }
+  

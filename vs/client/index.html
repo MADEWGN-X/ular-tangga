@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ular Tangga Multiplayer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ular Tangga Multiplayer</h1>
+        
+        <div id="multiplayer-controls">
+            <button id="create-room">Buat Room Baru</button>
+            <div class="join-room">
+                <input type="text" id="room-id" placeholder="Masukkan Room ID">
+                <button id="join-room">Gabung Room</button>
+            </div>
+            <p id="room-info"></p>
+            <p id="player-info"></p>
+        </div>
+
+        <div id="game-container" style="display: none;">
+            <div id="board"></div>
+            
+            <div class="game-info">
+                <div id="dice">
+                    <button id="roll-dice" disabled>Lempar Dadu</button>
+                    <div id="dice-value">0</div>
+                </div>
+                
+                <div id="player-status">
+                    <div class="player player1">
+                        <div class="player-token">P1</div>
+                        <span>Pemain 1</span>
+                    </div>
+                    <div class="player player2">
+                        <div class="player-token">P2</div>
+                        <span>Pemain 2</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
